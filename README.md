@@ -33,28 +33,59 @@ The template was converted into a WordPress theme structure.
 
 ---
 ```bash
-# Theme Structure
+# Project Structure
 wordpress-clean-blog-ecommerce/
-|
-|────clean-blog-theme/
-|       │
-|       ├── assets/
-|       │   ├── css
-|       │   └── js
-|       ├── img/
-|       |  
-|       ├── archive.php
-|       ├── footer.php
-|       ├── functions.php
-|       ├── header.php
-|       ├── index.php
-|       ├── page.php
-|       ├── single.php
-|       ├── style.css
-|       └── screenshot.png
-|
-└──README.md
+├── clean-blog-theme/
+│   ├── assets/
+│   │   ├── main.scss
+│   │   ├── scripts.js
+│   │   └── vendor/
+│   │       ├── bootstrap/           
+│   │       └── startbootstrap-clean-blog/  
+│   ├── img/
+│   │   ├── bg-about.jpg
+│   │   ├── bg-contact.jpg
+│   │   ├── bg-index.jpg
+│   │   ├── bg-post.jpg
+│   │   └── posts/                   
+│   │       
+│   │       
+│   │       
+│   │       
+│   │      
+│   │       
+│   ├── archive.php                  
+│   ├── footer.php                   
+│   ├── functions.php                
+│   ├── header.php                   
+│   ├── index.php                    
+│   ├── page.php                     
+│   ├── single.php                   
+│   ├── style.css                    
+│   └── screenshot.png               
+├── screenshots/                    
+│   ├── frontend-homepage.png
+│   ├── pages.png
+│   ├── payment-gateways.png
+│   └── products.png
+└── README.md                       
 ```
+
+---
+
+# Screenshots
+
+## Frontend Homepage
+![Frontend Homepage](screenshots/frontend-homepage.png)
+
+## Pages
+![Pages](screenshots/pages.png)
+
+## Products
+![Products](screenshots/products.png)
+
+## Payment Gateways
+![Payment Gateways](screenshots/payment-gateways.png)
 
 ---
 

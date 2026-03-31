@@ -31,7 +31,6 @@
           'container' => false, 
           'fallback_cb' => '__return_false',
           'depth' => 2,
-          'walker' => new WP_Bootstrap_Navwalker() 
         ));
         ?>
       </div>
