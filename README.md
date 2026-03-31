@@ -32,7 +32,7 @@ https://startbootstrap.com/previews/clean-blog-jekyll
 The template was converted into a WordPress theme structure.
 
 ---
-
+```bash
 # Theme Structure
 wordpress-clean-blog-ecommerce/
 |
@@ -54,6 +54,8 @@ wordpress-clean-blog-ecommerce/
 |       └── screenshot.png
 |
 └──README.md
+```
+
 ---
 
 # WooCommerce Setup
